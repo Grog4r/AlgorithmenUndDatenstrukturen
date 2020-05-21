@@ -14,13 +14,13 @@ Den Sourcecode zu jeder .jar findest du im jeweiligen Ordner in src.
 
 Natürlich könnt ihr euch auch den Sourcecode downloaden und anschauen/verändern.
 
-Allerdings ist der Code NICHT für die ausführung in Eclipse/IntelliJ oder andere IDEs optimiert/gemacht.
+Allerdings ist der Code **nicht** für die Ausführung in Eclipse/IntelliJ oder andere IDEs optimiert/gemacht.
 
-Die Tools sind darauf ausgelegt im Terminal bzw. der Konsole/CMD, oder wie ihr es nennt, ausgeführt zu werden.
+Die Tools sind darauf ausgelegt im Terminal bzw. der CMD/Konsole, oder wie ihr es nennt, ausgeführt zu werden.
 
 Hauptausgelegt ist die Funktionalität für Windows, da dieses Betriebssystem einfach am verbreitesten ist.
 
-Trotzdem sollte der Code eigentlich auch auf MacOS oder Linux Betriebssystemen laufen.
+Trotzdem sollte der Code eigentlich auch unter MacOS oder Linux laufen.
 
 ## Anleitung
 
@@ -28,7 +28,7 @@ Trotzdem sollte der Code eigentlich auch auf MacOS oder Linux Betriebssystemen l
 
 1. CMD/Terminal öffnen
 2. Zum Speicherort der .jar Datei navigieren 
-(mit `cd %USERPROFILE%/Downloads` kommt ihr bei Windows zum Beispiel zu eurem Downloadordner, %USERPROFILE% müsst ihr NICHT ersetzen)
+(mit `cd %USERPROFILE%/Downloads` kommt ihr bei Windows zum Beispiel zu eurem Downloadordner, %USERPROFILE% müsst ihr **nicht** ersetzen)
 3. Die .jar Datei ausführen mit `java -jar [TOOLNAME].jar`
 4. Für weitere Schritte siehe unter der jeweiligen Toolanleitung hier drunter...
 
@@ -36,7 +36,7 @@ Trotzdem sollte der Code eigentlich auch auf MacOS oder Linux Betriebssystemen l
 
 **WICHTIG:** Das Tool gibt euch zwar Musterlösungen, so wie es *P* will, allerdings müsst ihr zuerst den Algorithmus verstehen :)
 
-Das Tool bringt hauptsächlich zum üben etwas, da ihr euch damit Lösungen zu eigenen Beispielaufgaben generieren könnt.
+Das Tool bringt hauptsächlich zum Üben etwas, da ihr euch damit Lösungen zu eigenen Beispielaufgaben generieren könnt.
 
 In den Vorlesungsfolien findet ihr das Auswahlproblem mitsamt 3-Wege-Partitionierung bei 03-suchen (Folie 27).
 
@@ -44,13 +44,13 @@ Das Auswahlproblem sucht nach dem k kleinsten Element in einem unsortierten Arra
 
 Beispiel:
 
-[ 2, 4, 1, 8, 6, 2, 5 ]
+Array: [ 2, 4, 1, 8, 6, 2, 5 ]
 
 --> Welches Zahl ist die 3. kleinste?
 
 ---
 
-Um den Algorithmus ***auswaehlen*** aus *P*'s Folien auszuführen müsst ihr zuerst -aus in das Programm eingeben.
+Um den Algorithmus ***auswaehlen*** aus *P*'s Folien auszuführen müsst ihr zuerst `-aus` in das Programm eingeben.
 
 Dann fragt das Programm nach dem Array. Dieses darf nur Zahlen von 0 bis 9 enthalten. (Reicht normal für die Aufgaben von *P*)
 
@@ -58,7 +58,7 @@ Die einzelnen Werte für das Array trennt ihr einfach durch jeweils ein Leerzeic
 
 Danach will das Programm wissen, welchen Wert k hat, also das wievielt kleinste Element ihr sucht.
 
-Danach gibt euch das Programm zunächst den Aufrufbaum von auswaehlen auf.
+Danach gibt euch das Programm zunächst den Aufrufbaum von ***auswaehlen*** auf.
 
 Darunter findet ihr für jeden Aufruf des in ***auswaehlen*** genutzen Algorithmus ***Partitionieren*** Schritt für Schritt den Ablauf und die Erklärung zu jedem Schritt.
 
@@ -67,11 +67,11 @@ Ganz unten ist dann noch das eigentliche Ergebnis von ***auswaehlen***.
 
 ---
 
-Wenn ihr nur die 3-Wege-Partitionierung, also ***Partitionieren*** ausführen wollt, gebt ihr nach starten des Programms -part ein.
+Wenn ihr nur die 3-Wege-Partitionierung, also ***Partitionieren*** ausführen wollt, gebt ihr nach starten des Programms `-part` ein.
 
 Danach fragt euch das Programm wieder nach dem Array. 
 
-Nachdem ihr ENTER drückt, führt das Programm dann einmal ***Partitionieren*** aus und gibt wieder Schritt für Schritt den Ablauf aus.
+Nachdem ihr ENTER drückt, führt das Programm dann einmal ***Partitionieren*** aus und gibt wieder Schritt für Schritt dessen Ablauf aus.
 
 
 ## Lizenz
