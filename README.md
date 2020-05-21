@@ -62,7 +62,7 @@ Danach gibt euch das Programm zunächst den Aufrufbaum von auswaehlen auf.
 
 Darunter findet ihr für jeden Aufruf des in ***auswaehlen*** genutzen Algorithmus ***Partitionieren*** Schritt für Schritt den Ablauf und die Erklärung zu jedem Schritt.
 
-Ganz unten ist dann noch das Ergebnis von ***auswaehlen***.
+Ganz unten ist dann noch das eigentliche Ergebnis von ***auswaehlen***.
 
 
 ---
