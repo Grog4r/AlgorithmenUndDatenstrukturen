@@ -15,7 +15,7 @@ public class Auswaehlen {
 		int pivot = returnPartitionierung[2];
 
 		if (pivotLinks <= k - 1 && k - 1 <= pivotRechts) {
-			aufrufbaum += "L--> return pivot=" + pivot + "\n\n\n";
+			aufrufbaum += "L--> return kKleinstesElement=" + pivot + "\n\n\n";
 			System.out.println("Gesucht: das k = " + k + ". kleinste Element.");
 			// printet den Aufrufbaum und die Partitionierung, falls erwünscht
 			if (printAufrufbaum) {
