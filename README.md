@@ -24,7 +24,7 @@ Trotzdem sollte der Code eigentlich auch auf MacOS oder Linux Betriebssystemen l
 
 ## Anleitung
 
-###Generell
+**Generell**
 
 1. CMD/Terminal öffnen
 2. Zum Speicherort der .jar Datei navigieren 
@@ -32,9 +32,11 @@ Trotzdem sollte der Code eigentlich auch auf MacOS oder Linux Betriebssystemen l
 3. Die .jar Datei ausführen mit `java -jar [TOOLNAME].jar`
 4. Für weitere Schritte siehe unter der jeweiligen Toolanleitung hier drunter...
 
-###Auswahlproblem
+**Auswahlproblem**
 
 **WICHTIG:** Das Tool gibt euch zwar Musterlösungen, so wie es *P* will, allerdings müsst ihr zuerst den Algorithmus verstehen :)
+
+Das Tool bringt hauptsächlich zum üben etwas, da ihr euch damit Lösungen zu eigenen Beispielaufgaben generieren könnt.
 
 In den Vorlesungsfolien findet ihr das Auswahlproblem mitsamt 3-Wege-Partitionierung bei 03-suchen (Folie 27).
 
