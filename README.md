@@ -46,7 +46,7 @@ Beispiel:
 
 Array: [ 2, 4, 1, 8, 6, 2, 5 ]
 
---> Welches Zahl ist die 3. kleinste?
+--> Welche Zahl ist die 3. kleinste?
 
 ---
 
